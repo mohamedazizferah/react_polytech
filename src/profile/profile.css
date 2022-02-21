@@ -1,0 +1,21 @@
+.container {
+  border-style: solid;
+  border-radius: 1rem;
+  width: 50%;
+  position: relative;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.img {
+  border-radius: 1rem;
+  width: 200px;
+  length: 200px;
+  overflow: hidden;
+  margin: 1rem;
+  float: left;
+}
+.imgNfn {
+  overflow: hidden;
+  content: initial;
+  overflow: hidden;
+}
