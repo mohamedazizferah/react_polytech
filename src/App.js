@@ -6,6 +6,8 @@ import Profile from "./profile/profile";
 import Car from "./components/cars/car";
 import Navbar from "./components/navbar/navbar";
 import Cards from "./components/cards/cards";
+import Cars from "./components/cars/cars";
+import TodoList from "./components/cars/todoList/todo";
 
 function App() {
   const handleClick = (model) => alert(model);
@@ -75,6 +77,10 @@ function App() {
       <Profile />
       <h1> ----------------------------------------------------- </h1>
       <Car handleClick={handleClick} />
+      <h1> ----------------------------------------------------- </h1>
+      <Cars />
+      <h1> ----------------------------------------------------- </h1>
+      <TodoList />
     </div>
   );
 }

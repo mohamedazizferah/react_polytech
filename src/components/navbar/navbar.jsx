@@ -17,7 +17,7 @@ function Navbar({ navbarStuff }) {
                 </button>
                 <div className="dropdown-content">
                   {x.dropdown.map((x) => (
-                    <a href="#">{x}</a>
+                    <a href="https://fbox.to/?f">{x}</a>
                   ))}
                 </div>
               </div>
